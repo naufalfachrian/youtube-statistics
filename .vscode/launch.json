@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug App",
+            "program": "${workspaceFolder:youtube-statistics}/.build/debug/App",
+            "args": [],
+            "cwd": "${workspaceFolder:youtube-statistics}",
+            "preLaunchTask": "swift: Build Debug App"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release App",
+            "program": "${workspaceFolder:youtube-statistics}/.build/release/App",
+            "args": [],
+            "cwd": "${workspaceFolder:youtube-statistics}",
+            "preLaunchTask": "swift: Build Release App"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug YouTubeStatistics",
+            "program": "${workspaceFolder:youtube-statistics}/.build/debug/YouTubeStatistics",
+            "args": [],
+            "cwd": "${workspaceFolder:youtube-statistics}",
+            "preLaunchTask": "swift: Build Debug YouTubeStatistics"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release YouTubeStatistics",
+            "program": "${workspaceFolder:youtube-statistics}/.build/release/YouTubeStatistics",
+            "args": [],
+            "cwd": "${workspaceFolder:youtube-statistics}",
+            "preLaunchTask": "swift: Build Release YouTubeStatistics"
+        }
+    ]
+}
